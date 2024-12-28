@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose")
 const cors = require("cors");
-const { data } = require("react-router-dom");
+
 
 app.use(express.json());
 
@@ -143,7 +143,7 @@ app.post("/sendMassege",async(req,res)=>{
               massege:new_massege
 
             })
-            
+
             console.log(create_massege , "< ==== new massege creation response")
             res.json(create_massege)
             
