@@ -11,7 +11,7 @@ app.use(cors({
 }))
 
 try{
-    mongoose.connect("mongodb+srv://arjuntudu9163:awHhKuynNRCy47mD@cluster0.cq6wv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    mongoose.connect("mongodb+srv://arjuntudu9163:fv9FIKG1eb8UKcee@cluster0.cq6wv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 }catch(e){
     if(e){
         console.log("mongoose connection error")
